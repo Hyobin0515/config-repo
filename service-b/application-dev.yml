@@ -1,8 +1,8 @@
 service:
-  name: "Service B - Production Environment"
+  name: "Service B - Development Environment"
 student:
   id: "202334350"
   name: "최효빈"
 logging:
   level:
-    root: WARN
+    root: INFO  # 개발 환경이므로 INFO 레벨로 변경
