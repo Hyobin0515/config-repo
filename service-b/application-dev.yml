@@ -1,5 +1,8 @@
 service:
-  name: test service for Production B
-  student:
-    id: 20231234
-    name: 홍길동
+  name: "Service B - Production Environment"
+student:
+  id: "202334350"
+  name: "최효빈"
+logging:
+  level:
+    root: WARN
